@@ -1,0 +1,9 @@
+STORAGE: NONE
+RESTRICTION: == net7.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Dapper (2.0.123)
+    FSharp.Core (7.0.200)
+    Microsoft.Extensions.Logging.Abstractions (7.0)
+    Npgsql (7.0.2)
+      Microsoft.Extensions.Logging.Abstractions (>= 6.0)
