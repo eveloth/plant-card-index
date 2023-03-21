@@ -3,9 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Wrappers.fs" />
+    <Compile Include="Domain.fs" />
+    <Compile Include="Input.fs" />
+    <Compile Include="Database.fs" />
+    <Compile Include="Data.fs" />
     <Compile Include="Program.fs" />
+    <Content Include="appsettings.yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

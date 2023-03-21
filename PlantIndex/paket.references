@@ -1,3 +1,4 @@
 FSharp.Core
+FSharp.Configuration
 Dapper
 Npgsql

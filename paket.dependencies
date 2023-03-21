@@ -4,5 +4,6 @@ storage: none
 framework: auto-detect
 
 nuget FSharp.Core
+nuget FSharp.Configuration
 nuget Dapper
 nuget Npgsql

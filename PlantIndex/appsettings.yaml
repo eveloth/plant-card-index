@@ -1,0 +1,3 @@
+db:
+  connection_strings:
+    postgres: "Server=127.0.0.1;Port=5432;Database=plant_index;User Id={user};Password={pass};"
